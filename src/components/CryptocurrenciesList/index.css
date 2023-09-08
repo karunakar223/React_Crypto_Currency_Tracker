@@ -1,0 +1,56 @@
+/* Write your CSS code here */
+.main-container {
+  background-size: cover;
+  min-height: 100vh;
+  font-family: 'Roboto';
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  background-color: #000000;
+}
+
+.main-heading {
+  color: #00e7ff;
+  font-size: 32px;
+  font-weight: 900;
+}
+.currency-img {
+  height: 200px;
+  width: 800px;
+}
+.box-header {
+  display: flex;
+  justify-content: space-between;
+  width: 100%;
+  background-color: #092e33;
+}
+
+.usd-euro-con {
+  display: flex;
+  justify-content: space-between;
+}
+.list-container {
+  height: 250px;
+  width: 70%;
+  border: 3px solid #00e7ff;
+  padding: 1px 20px 1px 20px;
+}
+
+.coin-type {
+  color: #ffffff;
+  font-size: 14px;
+  font-weight: 600;
+  margin-left: 60px;
+}
+.euro-coins {
+  color: #ffffff;
+  font-size: 14px;
+  font-weight: 600px;
+}
+.usd-coins {
+  color: #ffffff;
+  font-size: 14px;
+  font-weight: 600;
+  margin-right: 120px;
+}

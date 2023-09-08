@@ -1,0 +1,38 @@
+/* Write your CSS code here */
+.items {
+  list-style-type: none;
+  font-family: 'Roboto';
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  width: 100%;
+}
+.name {
+  color: #ffffff;
+  font-size: 14px;
+  font-weight: 600;
+}
+.usd-val {
+  color: #ffffff;
+  font-size: 14px;
+  font-weight: 600;
+  margin-right: 80px;
+}
+
+.euro-val {
+  color: #ffffff;
+  font-size: 14px;
+  font-weight: 600;
+}
+.con-1 {
+  display: flex;
+  align-items: center;
+}
+.con-2 {
+  display: flex;
+}
+.img {
+  height: 30px;
+  width: 30px;
+  margin-right: 12px;
+}
